@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лето с Ветхим Заветом</title>
+    <style>
+        body {
+            font-family: monospace;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        h3 {
+            color: #7f8c8d;
+            text-align: left; /* Sub-headers for lists aligned left */
+            margin-left: 5%; /* Indent slightly */
+        }
+        p, li {
+            text-align: left; /* Paragraphs and list items left-aligned for readability */
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: disc; /* Default bullets */
+            padding-left: 20px; /* Indent lists */
+            display: inline-block; /* Allows centering of the block */
+            text-align: left; /* Ensures text within list items is left-aligned */
+            margin-left: auto;
+            margin-right: auto;
+        }
+        ul ul {
+            list-style-type: circle;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-size: 0.9em; /* Slightly smaller for tables */
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            text-align: center;
+        }
+        td:nth-child(1) { /* First column often an ID or name */
+            font-weight: bold;
+        }
+        td:nth-child(n+3):nth-child(-n+6) { /* Numeric columns */
+            text-align: right;
+        }
+        .table-caption {
+            font-size: 1.2em;
+            margin: 20px 0 10px 0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Лето с Ветхим Заветом</h1>
+
+        <p><strong>Цель:</strong> Изучение Ветхого Завета (И Нового Завета) без духоты и в разных контекстах</p>
+
+        <h2>Вопросы для обсуждения:</h2>
+
+        <p><strong>Промежуток времени в котором читаем?</strong></p>
+        <ul>
+            <li>18 встреч которые в теории должны занять ~4 месяца</li>
+        </ul>
+
+        <p><strong>В каком переводе читать?</strong></p>
+        <ul>
+            <li>Не знаю. Для этого скидываю ссылку на сайт где можно легко сменить перевод на один из множества доступных. Из того что я понимаю отталкиваться стоит от cинодального (олд скул) и современный перевод РБО 2011</li>
+        </ul>
+
+        <p><strong>Что о Библии читать/смотреть (компаньон или лекции)?</strong></p>
+        <h3>Основное:</h3>
+        <ul>
+            <li>Сам текст Ветхого Завета: <a href="https://ekzeget.ru/bible/bytie/glava-1/tolkovatel-kulturnoistoriceskij-kommentarij/" target="_blank">https://ekzeget.ru/bible/bytie/glava-1/tolkovatel-kulturnoistoriceskij-kommentarij/</a>
+                <ul>
+                    <li>есть разные переводы</li>
+                    <li>есть аудио</li>
+                    <li>есть толкования и культурный контекст</li>
+                </ul>
+            </li>
+            <li>The Jewish Study Bible: Featuring the Jewish Publication Society Tanakh Translation
+                <ul>
+                    <li>Подробные комментарии параллельно с текстом</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Дополнительно:</h3>
+        <ul>
+            <li>BibleProject - YouTube</li>
+            <li>Introduction to the Old Testament (Hebrew Bible) | Open Yale Courses</li>
+            <li>История Библии. Где и как появились библейские тексты, зачем они были написаны и какую сыграли роль в мировой истории и культуре</li>
+            <li>Библия: что было «на самом деле»?</li>
+            <li>Эпизоды и персонажи Ветхого завета в произведениях изобразительного искусства</li>
+            <li>Викторина</li>
+        </ul>
+
+        <div class="table-caption">Размер книг относительно Ветхого Завета</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Русское название</th>
+                    <th>Английское название</th>
+                    <th>#</th>
+                    <th>Процент</th>
+                    <th>Накопленный процент</th>
+                    <th>Ранг</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Бытие</td><td>Genesis</td><td>1</td><td>5.24%</td><td>5.24%</td><td>2</td></tr>
+                <tr><td>Исход</td><td>Exodus</td><td>2</td><td>4.25%</td><td>9.49%</td><td>5</td></tr>
+                <tr><td>Левит</td><td>Leviticus</td><td>3</td><td>3.08%</td><td>12.57%</td><td>13</td></tr>
+                <tr><td>Числа</td><td>Numbers</td><td>4</td><td>4.10%</td><td>16.67%</td><td>7</td></tr>
+                <tr><td>Второзаконие</td><td>Deuteronomy</td><td>5</td><td>3.76%</td><td>20.44%</td><td>8</td></tr>
+                <tr><td>Иисус Навин</td><td>Joshua</td><td>6</td><td>2.56%</td><td>23.00%</td><td>19</td></tr>
+                <tr><td>Судьи Израилевы</td><td>Judges</td><td>7</td><td>2.52%</td><td>25.52%</td><td>21</td></tr>
+                <tr><td>Руфь</td><td>Ruth</td><td>8</td><td>0.33%</td><td>25.85%</td><td>43</td></tr>
+                <tr><td>Первая книга Царств</td><td>1 Samuel</td><td>9</td><td>3.41%</td><td>29.26%</td><td>10</td></tr>
+                <tr><td>Вторая книга Царств</td><td>2 Samuel</td><td>10</td><td>2.81%</td><td>32.07%</td><td>17</td></tr>
+                <tr><td>Третья книга Царств</td><td>1 Kings</td><td>11</td><td>3.33%</td><td>35.40%</td><td>11</td></tr>
+                <tr><td>Четвёртая книга Царств</td><td>2 Kings</td><td>12</td><td>3.07%</td><td>38.47%</td><td>14</td></tr>
+                <tr><td>Первая Паралипоменон</td><td>1 Chronicles</td><td>13</td><td>2.73%</td><td>41.20%</td><td>18</td></tr>
+                <tr><td>Вторая Паралипоменон</td><td>2 Chronicles</td><td>14</td><td>3.49%</td><td>44.69%</td><td>9</td></tr>
+                <tr><td>Ездра</td><td>Ezra</td><td>15</td><td>0.92%</td><td>45.61%</td><td>30</td></tr>
+                <tr><td>Неемия</td><td>Nehemiah</td><td>16</td><td>1.39%</td><td>47.00%</td><td>27</td></tr>
+                <tr><td>Есфирь</td><td>Esther</td><td>17</td><td>0.81%</td><td>47.81%</td><td>32</td></tr>
+                <tr><td>Иов</td><td>Job</td><td>18</td><td>2.07%</td><td>49.88%</td><td>22</td></tr>
+                <tr><td>Псалтирь</td><td>Psalms</td><td>19</td><td>4.93%</td><td>54.81%</td><td>3</td></tr>
+                <tr><td>Притчи Соломона</td><td>Proverbs</td><td>20</td><td>1.62%</td><td>56.44%</td><td>24</td></tr>
+                <tr><td>Екклезиаст</td><td>Ecclesiastes</td><td>21</td><td>0.74%</td><td>57.18%</td><td>34</td></tr>
+                <tr><td>Песнь песней</td><td>Song of Solomon</td><td>22</td><td>0.33%</td><td>57.51%</td><td>44</td></tr>
+                <tr><td>Исаия</td><td>Isaiah</td><td>23</td><td>4.19%</td><td>61.70%</td><td>6</td></tr>
+                <tr><td>Иеремия</td><td>Jeremiah</td><td>24</td><td>5.40%</td><td>67.10%</td><td>1</td></tr>
+                <tr><td>Плач Иеремии</td><td>Lamentations</td><td>25</td><td>0.38%</td><td>67.48%</td><td>39</td></tr>
+                <tr><td>Иезекииль</td><td>Ezekiel</td><td>26</td><td>4.89%</td><td>72.37%</td><td>4</td></tr>
+                <tr><td>Даниил</td><td>Daniel</td><td>27</td><td>1.47%</td><td>73.85%</td><td>26</td></tr>
+                <tr><td>Осия</td><td>Hosea</td><td>28</td><td>0.59%</td><td>74.44%</td><td>36</td></tr>
+                <tr><td>Иоиль</td><td>Joel</td><td>29</td><td>0.24%</td><td>74.67%</td><td>51</td></tr>
+                <tr><td>Амос</td><td>Amos</td><td>30</td><td>0.50%</td><td>75.17%</td><td>37</td></tr>
+                <tr><td>Авдий</td><td>Obadiah</td><td>31</td><td>0.07%</td><td>75.24%</td><td>63</td></tr>
+                <tr><td>Иона</td><td>Jonah</td><td>32</td><td>0.18%</td><td>75.42%</td><td>56</td></tr>
+                <tr><td>Михей</td><td>Micah</td><td>33</td><td>0.35%</td><td>75.77%</td><td>42</td></tr>
+                <tr><td>Наум</td><td>Nahum</td><td>34</td><td>0.14%</td><td>75.91%</td><td>59</td></tr>
+                <tr><td>Аввакум</td><td>Habakkuk</td><td>35</td><td>0.17%</td><td>76.07%</td><td>57</td></tr>
+                <tr><td>Софония</td><td>Zephaniah</td><td>36</td><td>0.19%</td><td>76.26%</td><td>54</td></tr>
+                <tr><td>Аггей</td><td>Haggai</td><td>37</td><td>0.15%</td><td>76.41%</td><td>58</td></tr>
+                <tr><td>Захария</td><td>Zechariah</td><td>38</td><td>0.79%</td><td>77.20%</td><td>33</td></tr>
+                <tr><td>Малахия</td><td>Malachi</td><td>39</td><td>0.22%</td><td>77.42%</td><td>52</td></tr>
+            </tbody>
+        </table>
+
+        <div class="table-caption">План Чтения (Ветхий Завет)</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>№ Встречи</th>
+                    <th>Основной</th>
+                    <th>Основной-лайт</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>Бытие 1-26</td><td>Иов 1-24</td></tr>
+                <tr><td>2</td><td>Бытие 27-50</td><td>Иов 25-42</td></tr>
+                <tr><td>3</td><td>Исход 1-25</td><td>Псалмы 1-50</td></tr>
+                <tr><td>4</td><td>Исход 25-40</td><td>Псалмы 50-107</td></tr>
+                <tr><td>5</td><td>Левит</td><td>Псалмы 108-150</td></tr>
+                <tr><td>6</td><td>Числа</td><td>Екклесиаст</td></tr>
+                <tr><td>7</td><td>Второзаконие</td><td>Притчи Соломона</td></tr>
+                <tr><td>8</td><td>Иисус Навин</td><td>Песнь Песней</td></tr>
+                <tr><td>9</td><td>Судьи Изралевы</td><td>Исайя 1-28</td></tr>
+                <tr><td>10</td><td>Руфь</td><td>Исайя 29-66</td></tr>
+                <tr><td>11</td><td>Первая книга Царств</td><td>Иеремия 1-27</td></tr>
+                <tr><td>12</td><td>Вторая Книга Царств</td><td>Иеремия 27-52</td></tr>
+                <tr><td>13</td><td>Третья Книга Царств</td><td>Плач Иеремии</td></tr>
+                <tr><td>14</td><td>Четвёртая Книга Царств</td><td>Иезекииль</td></tr>
+                <tr><td>15</td><td>Первая Паралипоменон</td><td>Даниил Осия Наум</td></tr>
+                <tr><td>16</td><td>Вторая Паралипоменон</td><td>Иоиль Амос Михейа</td></tr>
+                <tr><td>17</td><td>Ездра Неемия</td><td>Авдий Иона Аввакум</td></tr>
+                <tr><td>18</td><td>Есфирь Малахия</td><td>Захария, Аггей, Софоний</td></tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
