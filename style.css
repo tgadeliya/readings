@@ -57,11 +57,12 @@ table {
     margin: 20px auto;
     border-collapse: collapse;
     font-size: 0.9em; /* Slightly smaller for tables */
+    text-align: center;
 }
 th, td {
     border: 1px solid #ddd;
     padding: 8px;
-    text-align: left;
+    text-align: center;
 }
 th {
     background-color: #ecf0f1;
@@ -72,10 +73,11 @@ td:nth-child(1) { /* First column often an ID or name */
     font-weight: bold;
 }
 td:nth-child(n+3):nth-child(-n+6) { /* Numeric columns */
-    text-align: right;
+    text-align: center;
 }
 .table-caption {
     font-size: 1.2em;
     margin: 20px 0 10px 0;
     font-weight: bold;
+    text-align: center;
 }
